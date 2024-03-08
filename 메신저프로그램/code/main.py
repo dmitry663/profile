@@ -1,3 +1,10 @@
+### 나 환경 설정 파일을 확인하고 프로그램을 실행시켜야해
+### 환경 설정 파일이 없으면 해당 경로에서 가져와.
+
+### 환경 설정 파일의 서버 아이피를 가져와.
+### 그걸로 통신하자.
+
+"""
 from library.library import *
 # 메신저 경로 가져오기
 messenger_path = get_messenger_path()
@@ -28,3 +35,8 @@ info_data = read_messenger_info(messenger_info_file)
 if info_data:
     print("Messenger 정보:")
     print(info_data)
+
+
+
+
+"""
